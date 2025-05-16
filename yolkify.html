@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yolkify - Master the Art of Cooking Eggs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .app-hero {
+            background: linear-gradient(135deg, #FFC107, #FF9800);
+            color: white;
+            padding: 8rem 2rem 4rem;
+            text-align: center;
+        }
+        
+        .app-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        
+        .app-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .feature-card h3 {
+            color: #FFC107;
+            margin-bottom: 1rem;
+        }
+        
+        .app-screenshots {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .screenshot {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .screenshot img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .cooking-methods {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 3rem 0;
+        }
+        
+        .method-card {
+            background: #FFF8E1;
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .method-card h4 {
+            color: #FF9800;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.svg" alt="MobiHive Studio Logo" class="logo-img">
+                    <span class="logo-text">MobiHive Studio</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#apps">Our Apps</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="app-hero">
+            <div class="hero-content">
+                <h1>Yolkify</h1>
+                <p>Your new best friend for egg perfection</p>
+            </div>
+        </section>
+
+        <section class="app-content">
+            <h2>Master the Art of Cooking Eggs</h2>
+            <p>Yolkify is the ultimate mobile application for mastering the art of cooking eggs. With its intuitive design and smart functionality, you'll achieve perfectly cooked eggs every time, wherever you are. Say goodbye to guesswork and hello to consistency and precision.</p>
+
+            <div class="app-features">
+                <div class="feature-card">
+                    <h3>Perfect Timing</h3>
+                    <p>Get precise cooking times for different egg preparations, ensuring perfect results every time.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Smart Tips</h3>
+                    <p>Access expert tips and techniques to elevate your egg-cooking skills.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Multiple Methods</h3>
+                    <p>From soft-boiled to hard-boiled, poached to scrambled, Yolkify has you covered.</p>
+                </div>
+            </div>
+
+            <h3 style="text-align: center; margin: 2rem 0;">Supported Cooking Methods</h3>
+            <div class="cooking-methods">
+                <div class="method-card">
+                    <h4>Soft-Boiled</h4>
+                    <p>Perfect runny yolk</p>
+                </div>
+                <div class="method-card">
+                    <h4>Hard-Boiled</h4>
+                    <p>Firm and consistent</p>
+                </div>
+                <div class="method-card">
+                    <h4>Poached</h4>
+                    <p>Delicate and elegant</p>
+                </div>
+                <div class="method-card">
+                    <h4>Scrambled</h4>
+                    <p>Fluffy and creamy</p>
+                </div>
+            </div>
+
+            <div class="app-screenshots">
+                <div class="screenshot">
+                    <img src="images/yolkify-screenshot1.png" alt="Yolkify App Screenshot 1">
+                </div>
+                <div class="screenshot">
+                    <img src="images/yolkify-screenshot2.png" alt="Yolkify App Screenshot 2">
+                </div>
+                <div class="screenshot">
+                    <img src="images/yolkify-screenshot3.png" alt="Yolkify App Screenshot 3">
+                </div>
+            </div>
+
+            <div style="text-align: center; margin: 3rem 0;">
+                <a href="#" class="btn">Download Yolkify</a>
+                <p style="margin-top: 1rem;">Available on Android and iOS</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.svg" alt="MobiHive Studio Logo" class="logo-img">
+                <span class="logo-text">MobiHive Studio</span>
+            </div>
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MobiHive Studio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 

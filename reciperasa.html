@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecipeRasa - Authentic Indian Home-Style Cooking</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .app-hero {
+            background: linear-gradient(135deg, #FF5722, #FF9800);
+            color: white;
+            padding: 8rem 2rem 4rem;
+            text-align: center;
+        }
+        
+        .app-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        
+        .app-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .feature-card h3 {
+            color: var(--bright-orange);
+            margin-bottom: 1rem;
+        }
+        
+        .app-screenshots {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .screenshot {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .screenshot img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.svg" alt="MobiHive Studio Logo" class="logo-img">
+                    <span class="logo-text">MobiHive Studio</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#apps">Our Apps</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="app-hero">
+            <div class="hero-content">
+                <h1>RecipeRasa</h1>
+                <p>Your one-stop solution for authentic Indian home-style cooking</p>
+            </div>
+        </section>
+
+        <section class="app-content">
+            <h2>Discover the Rich Flavors of India</h2>
+            <p>Dive into the rich flavors and traditions of Indian cuisine right from your kitchen. With RecipeRasa, explore a vast collection of recipes that reflect the heart and soul of Indian cooking. Whether you're craving spicy curries, delectable sweets, or hearty meals, our app has it all. Each recipe is crafted to bring the true essence of Indian flavors to your table.</p>
+
+            <div class="app-features">
+                <div class="feature-card">
+                    <h3>Authentic Recipes</h3>
+                    <p>Discover recipes passed down through generations, bringing authentic Indian flavors to your kitchen.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Step-by-Step Guide</h3>
+                    <p>Clear instructions and tips to help you master Indian cooking techniques.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>For All Skill Levels</h3>
+                    <p>Whether you're a seasoned chef or just starting your culinary journey, RecipeRasa is here to guide you.</p>
+                </div>
+            </div>
+
+            <div class="app-screenshots">
+                <div class="screenshot">
+                    <img src="images/reciperasa-screenshot1.png" alt="RecipeRasa App Screenshot 1">
+                </div>
+                <div class="screenshot">
+                    <img src="images/reciperasa-screenshot2.png" alt="RecipeRasa App Screenshot 2">
+                </div>
+                <div class="screenshot">
+                    <img src="images/reciperasa-screenshot3.png" alt="RecipeRasa App Screenshot 3">
+                </div>
+            </div>
+
+            <div style="text-align: center; margin: 3rem 0;">
+                <a href="#" class="btn">Download RecipeRasa</a>
+                <p style="margin-top: 1rem;">Available on Android and iOS</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.svg" alt="MobiHive Studio Logo" class="logo-img">
+                <span class="logo-text">MobiHive Studio</span>
+            </div>
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MobiHive Studio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
